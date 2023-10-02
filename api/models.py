@@ -127,4 +127,4 @@ class Reviews(models.Model):
     comment = models.TextField()
 
     def __str__(seft):
-    return seft.comment
+        return seft.comment

@@ -1,4 +1,4 @@
-from django.contrib.auth.models import User, Group
+from django.contrib.auth.models import User, Group, Restaurants, Employees, Customers, MenuItems, Orders, OrderDetails, Inventory, ThirdPartyPlatforms, ThirdPartyOrders, TableReservations, Payments, Reviews
 from rest_framework import serializers
 
 

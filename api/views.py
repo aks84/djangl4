@@ -22,73 +22,73 @@ class GroupViewSet(viewsets.ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
 
-class Restaurants(viewsets.ModelViewSet):
+class RestaurantViewSet(viewsets.ModelViewSet):
     queryset = Restaurants.objects.all()
     serializer_class = RestaurantsSerializer
     permission_classes = [permissions.IsAuthenticated]
 
 
-class Employees(viewsets.ModelViewSet):
+class EmployeeViewSet(viewsets.ModelViewSet):
     queryset = Employees.objects.all()
     serializer_class = EmployeesSerializer
     permission_classes = [permissions.IsAuthenticated]
 
 
-class Customers(viewsets.ModelViewSet):
+class CustomerViewSet(viewsets.ModelViewSet):
     queryset = Customers.objects.all()
     serializer_class = CustomersSerializer
     permission_classes = [permissions.IsAuthenticated]
 
 
-class MenuItems(viewsets.ModelViewSet):
+class MenuItemViewSet(viewsets.ModelViewSet):
     queryset = MenuItems.objects.all()
     serializer_class = MenuItemsSerializer
     permission_classes = [permissions.IsAuthenticated]
 
 
-class Orders(viewsets.ModelViewSet):
+class OrderViewSet(viewsets.ModelViewSet):
     queryset = Orders.objects.all()
     serializer_class = OrdersSerializer
     permission_classes = [permissions.IsAuthenticated]
 
 
-class OrderDetails(viewsets.ModelViewSet):
+class OrderDetailViewSet(viewsets.ModelViewSet):
     queryset = OrderDetails.objects.all()
     serializer_class = OrderDetailsSerializer
     permission_classes = [permissions.IsAuthenticated]
 
 
-class Inventory(viewsets.ModelViewSet):
+class InventoryViewSet(viewsets.ModelViewSet):
     queryset = Inventory.objects.all()
     serializer_class = InventorySerializer
     permission_classes = [permissions.IsAuthenticated]
 
 
-class ThirdPartyPlatforms(viewsets.ModelViewSet):
+class ThirdPartyPlatformViewSet(viewsets.ModelViewSet):
     queryset = ThirdPartyPlatforms.objects.all()
     serializer_class = ThirdPartyPlatformsSerializer
     permission_classes = [permissions.IsAuthenticated]
 
 
-class ThirdPartyOrders(viewsets.ModelViewSet):
+class ThirdPartyOrderViewSet(viewsets.ModelViewSet):
     queryset = ThirdPartyOrders.objects.all()
     serializer_class = ThirdPartyOrdersSerializer
     permission_classes = [permissions.IsAuthenticated]
 
 
-class TableReservations(viewsets.ModelViewSet):
+class TableReservationViewSet(viewsets.ModelViewSet):
     queryset = TableReservations.objects.all()
     serializer_class = TableReservationsSerializer
     permission_classes = [permissions.IsAuthenticated]
 
 
-class Payments(viewsets.ModelViewSet):
+class PaymentViewSet(viewsets.ModelViewSet):
     queryset = Payments.objects.all()
     serializer_class = PaymentsSerializer
     permission_classes = [permissions.IsAuthenticated]
 
 
-class Reviews(viewsets.ModelViewSet):
+class ReviewViewSet(viewsets.ModelViewSet):
     queryset = Reviews.objects.all()
     serializer_class = ReviewsSerializer
     permission_classes = [permissions.IsAuthenticated]

@@ -1,8 +1,8 @@
 from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
 from rest_framework import permissions
-from api.serializers import UserSerializer, GroupSerializer, RestaurantsSerializer, EmployeesSerializer, CustomersSerializer, MenuItemsSerializer, OrdersSerializer, OrderDetailsSerializer, InventorySerializer, ThirdPartyPlatformsSerializer, ThirdPartyOrdersSerializer, TableReservationsSerializer, PaymentsSerializer, ReviewsSerializer
-from api.models import Restaurants, Employees, Customers, MenuItems, Orders, OrderDetails, Inventory, ThirdPartyPlatforms, ThirdPartyOrders, TableReservations, Payments, Reviews
+from djangopp.api.serializers import UserSerializer, GroupSerializer, RestaurantsSerializer, EmployeesSerializer, CustomersSerializer, MenuItemsSerializer, OrdersSerializer, OrderDetailsSerializer, InventorySerializer, ThirdPartyPlatformsSerializer, ThirdPartyOrdersSerializer, TableReservationsSerializer, PaymentsSerializer, ReviewsSerializer
+from djangopp.api.models import Restaurants, Employees, Customers, MenuItems, Orders, OrderDetails, Inventory, ThirdPartyPlatforms, ThirdPartyOrders, TableReservations, Payments, Reviews
 
 
 class UserViewSet(viewsets.ModelViewSet):

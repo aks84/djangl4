@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'djangopp.api',
+    'djangopp.bidder',
     'rest_framework',
 ]
 
@@ -77,7 +78,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'djangopp.wsgi.application'
 
 
-# Database
+# Developement Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {

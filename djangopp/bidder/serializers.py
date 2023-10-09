@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from django.contrib.auth.models import User, Group
-from djangopp.bidder.models import Auction, Item, Bid
+from djangopp.bidder.models import *
 
 
 
@@ -33,4 +33,9 @@ class BidSerializer(serializers.ModelSerializer):
         model = Bid
         fields = '__all__'
 
+
+class BidderSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Bidder
+        fields = '__all__'
 

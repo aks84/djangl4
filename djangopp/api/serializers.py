@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from django.contrib.auth.models import User, Group
-from djangopp.api.models import Restaurants, Employees, Customers, MenuItems, Orders, OrderDetails, Inventory, ThirdPartyPlatforms, ThirdPartyOrders, TableReservations, Payments, Reviews
+from djangopp.api.models import *
 
 
 class UserSerializer(serializers.ModelSerializer):

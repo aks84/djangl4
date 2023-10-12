@@ -3,8 +3,8 @@ from rest_framework import routers
 from .views import *
 
 bidurl = routers.DefaultRouter()
-bidurl.register(r'users', UserViewSet)
-bidurl.register(r'groups', GroupViewSet)
+# bidurl.register(r'users', UserViewSet)
+# bidurl.register(r'groups', GroupViewSet)
 
 bidurl.register(r'bids', BidViewSet)
 bidurl.register(r'auctions', AuctionViewSet)
